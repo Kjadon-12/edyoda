@@ -61,8 +61,8 @@ function RightSide() {
           />
           
           <span className='text-muted plann_txt'> 12 Months Subscription </span>
-          <span className='gap2 text-muted' style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>Total<span className='plann_txt text-muted'>₹99</span> </span>
-          <p className='d-flex justify-content-end text-muted' style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>₹8/mo</p>
+          <span className='gap2 text-muted small_txt_style' >Total<span className='plann_txt text-muted'>₹99</span> </span>
+          <p className='d-flex justify-content-end text-muted small_txt_style' >₹8/mo</p>
         </label>
         </div>
         <div className='plan_box' style={{ backgroundColor: selectedPlan === 'basic' ? selectedColor : 'white'  }} >
@@ -78,8 +78,8 @@ function RightSide() {
             
           />
           <span className='plann_txt'> 12 Months Subscription </span>
-          <span className='gap2' style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>Total <span className='plann_txt'>₹179</span> </span>
-          <p className='d-flex justify-content-end text-muted' style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>₹15/mo</p>
+          <span className='gap2  small_txt_style' >Total <span className='plann_txt'>₹179</span> </span>
+          <p className='d-flex justify-content-end text-muted small_txt_style' >₹15/mo</p>
         </label>
       </div>
       <div className='plan_box' style={{ backgroundColor: selectedPlan === 'standard' ? selectedColor : 'white'  }}>
@@ -93,8 +93,8 @@ function RightSide() {
             data-color="#D7EDDD"
           />
           <span style={{marginRigth:"15%"}} className='plann_txt'> 6 Months Subscription </span>
-          <span className='gap2'  style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>Total <span className='plann_txt'>₹149</span> </span>
-          <p className='d-flex justify-content-end text-muted' style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>₹25/mo</p>
+          <span className='gap2  small_txt_style'  >Total <span className='plann_txt'>₹149</span> </span>
+          <p className='d-flex justify-content-end text-muted  small_txt_style' >₹25/mo</p>
         </label>
       </div>
       <div className='plan_box' style={{ backgroundColor: selectedPlan === 'premium' ? selectedColor : 'white'  }}>
@@ -108,8 +108,8 @@ function RightSide() {
             data-color="#D7EDDD"
           />
           <span className='plann_txt'> 3 Months Subscription </span>
-          <span className='gap2' style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>Total <span className='plann_txt'>₹99</span></span>
-          <p className='d-flex justify-content-end text-muted' style={{fontFamily: 'Roboto', fontStyle: "normal",fontWeight: "500",fontSize: "12px",lineHeight: "120%"}}>₹33/mo</p>
+          <span className='gap2  small_txt_style' >Total <span className='plann_txt'>₹99</span></span>
+          <p className='d-flex justify-content-end text-muted  small_txt_style' >₹33/mo</p>
         </label>
       </div>
       
