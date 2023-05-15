@@ -261,6 +261,16 @@ color: #3C4852;
    line-height: 120%;
 }
 
+.gap3{
+  gap:50%;
+}
+.gap4{
+  gap:38%;
+}
+.gap5{
+  gap: 100px;
+}
+
 @media screen and  (max-width: 768px){
   .main_txt {
     width: 799px;
@@ -281,6 +291,15 @@ color: #3C4852;
 
   .gap2 {
     margin-left: 398px;
+}
+.gap3 {
+  gap: 71%;
+}
+.gap4 {
+  gap: 66%;
+}
+.gap5 {
+  gap: 422px;
 }
 
 }

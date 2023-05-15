@@ -121,14 +121,14 @@ function RightSide() {
 
         <div>
 
-            <div className='d-flex' style={{gap:"50%" , padding: "0 16px 10px 16px" }}>
+            <div className='d-flex gap3' style={{ padding: "0 16px 10px 16px" }}>
                 <div className='subFee_txt'>Subscription Fee</div>
                 <div className='subFee_price'>₹18,500</div>
 
             </div>
 
             <div className='offer_box'  style={{margin: "0 10px 10px 16px", padding: "10px 0px 10px 16px" , height:"inherit" }}>
-            <div className='d-flex' style={{gap:"38%"}}>
+            <div className='d-flex gap4'>
                 <div  className='limited_offer_txt' >Limited time offer</div>
               
                 <div className='subFee_price'>- ₹18,401</div>
@@ -140,7 +140,7 @@ function RightSide() {
             </div>
             </div>
 
-            <div className='d-flex' style={{gap:"100px" , padding: "15px 16px 10px 16px" }}>
+            <div className='d-flex gap5' style={{ padding: "15px 16px 10px 16px" }}>
                 <div className='subFee_txt'>Total (Incl. of 18% GST)</div>
                 <div className='total_price'>₹{totalPrice}</div>
             </div>
