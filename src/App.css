@@ -1,38 +1,307 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.red-strikethrough {
+  text-decoration: line-through;
   color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.red-strikethrough::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 6px;
+  background-color: red;
+}
+.main_txt {
+width: 799px;
+height: 70px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 125%;
+/* identical to box height, or 70px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gap{
+  margin-left: 16px;
 }
+
+.gap2{
+  margin-left: 60px;
+}
+
+.feat {
+  padding-bottom: 20px;
+}
+
+.features{
+  width: 401px;
+  height: 32px;
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+
+
+
+.i_txt {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+}
+
+.form_head {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 125.3%;
+}
+
+
+
+
+
+.cancel_btn {
+  color: #F77171;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+border: 2px solid #F77171;
+border-radius: 4px;
+padding: 10px 28px;
+gap: 10px;
+
+
+
+}
+
+.pay_btn {
+  color: white;
+  background-color: #47BA68 ;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+border: 2px solid #47BA68;
+border-radius: 4px;
+padding: 10px 28px;
+gap: 10px;
+
+
+
+}
+
+.plan_box {
+  border: 2px solid gray;
+  margin: 4px 10px;
+  border-radius: 8px;
+  padding: 4px 4px 0 4px;
+  cursor: pointer;
+}
+/* .checkbox {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  cursor: pointer;
+} */
+
+.checked {
+  background: #D7EDDD;
+  border: 2px solid #47BA68;
+  border-radius: 4px;
+}
+
+.plann_txt {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+
+color: #3C4852;
+}
+
+.hor_line {
+  margin: 2rem 10px;
+  color: inherit;
+  border: 0;
+  border-top: 2px solid;
+  opacity: .25;
+}
+
+.subFee_txt{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+
+color: #3C4852;
+}
+
+.subFee_price {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+
+color: #3C4852;
+}
+
+.offer_box{
+  background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+  border-radius: 8px;
+  border: 2px solid #DE4313;
+}
+
+.limited_offer_txt{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+
+color: #DE4313;
+
+}
+
+.valid_till{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+/* identical to box height, or 17px */
+
+color: #DE4313;
+
+}
+
+.total_price {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+
+
+letter-spacing: 0.03em;
+
+color: #3C4852;
+
+}
+
+
+
+
+.offer_expired_txt {
+ color:white;
+ position:relative;
+ width:27%;
+ padding:0px 5px;
+ margin:0px 4px;
+ top:-4px;
+ left:12%;
+  
+}
+.small_txt_style {
+  font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 120%;
+}
+
+@media screen and  (max-width: 768px){
+  .main_txt {
+    width: 799px;
+    height: 70px;
+    
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+  }
+  
+}
+
+@media screen and (min-width: 803px) and (max-width:992px){
+
+  .gap2 {
+    margin-left: 398px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
